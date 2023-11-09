@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600;800&family=Roboto:wght@400;700;900&family=Saira+Stencil+One&display=swap');
+
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.texto-duvida {
+    color: white;
+    padding-right: 50px;
+    width: 280px ;
+    
+ 
+}
+
+.texto-duvida h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.texto-duvida p {
+    font-size: 15px;
+    font-weight: 400;
+    top: -59px;
+    left: -361px;
+}
+
+
+
+
+
+
+
+
+
+
+.formulario {
+    background-color: white;
+    width: 340px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22px ;
+
+    box-shadow: 0 27px 49px -25px black;
+
+}
+
+
+
+.formulario form input{
+    width: 299px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid ;
+}
+.formulario form p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+   
+}
+
+.formulario form input:last-child{
+    border: none;
+    background-color: #3bcc87;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.formulario form input:nth-last-child(3){
+    height: 100px;
+
+}
+.formulario span{
+    color: red;
+    font-size: 12px;
+}
+
+.formulario form input.campo-preenchido{
+	border: 1px solid green;
+}
+
+.formulario form input.campo-nao-preenchido{
+	border: 1px solid rgb(128, 0, 0);
+    
+}

@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+   .conteudo{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .conteudo .formulario {
+    margin-top: 20px; 
+    width: 80%;
+  }
+  .conteudo .formulario form input{
+    width: 80%;
+  }
+
+  }
